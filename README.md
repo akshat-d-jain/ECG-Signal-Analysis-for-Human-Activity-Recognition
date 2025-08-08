@@ -5,7 +5,7 @@
 
 This project demonstrates a complete, end-to-end machine learning pipeline for analyzing physiological time-series data. Using an electrocardiogram (ECG) signal from the MHEALTH dataset, we extract meaningful features, train a classifier to recognize human activities, and discover hidden patterns in the data through unsupervised learning.
 
-## 📋 Project Pipeline
+## Project Pipeline
 
 The project follows a standard data science workflow:
 1.  **Data Acquisition**: Downloads and loads a real-world ECG dataset.
@@ -14,7 +14,7 @@ The project follows a standard data science workflow:
 4.  **Unsupervised Learning**: Implements K-Means clustering to discover natural groupings in the data and Isolation Forest to detect anomalies.
 5.  **Data Visualization (EDA)**: Creates a suite of plots to interpret the data and model performance.
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **MHEALTH (Mobile Health) dataset** from the UCI Machine Learning Repository. It contains body motion and vital sign recordings for ten volunteers of diverse profiles while performing 12 physical activities.
 
@@ -22,7 +22,7 @@ This project uses the **MHEALTH (Mobile Health) dataset** from the UCI Machine L
 -   **Signal Used**: ECG (lead 1)
 -   **Sampling Rate**: 50 Hz
 
-## ⚙️ Setup and Installation
+##  Setup and Installation
 
 To run this project locally, follow these steps:
 
@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-## 🚀 How to Run
+##  How to Run
 
 Execute the main Python script to run the entire pipeline from data download to model training and visualization. The script will automatically download the necessary data on its first run.
 
@@ -51,7 +51,7 @@ Execute the main Python script to run the entire pipeline from data download to 
 python main_analysis_script.py
 ```
 
-## 📈 Analysis and Inferences
+##  Analysis and Inferences
 
 The following visualizations provide key insights into the data and the performance of our machine learning models.
 
